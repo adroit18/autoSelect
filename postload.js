@@ -1,4 +1,4 @@
-(function(){
+(function(){ 
     const autoCompleteInput = document.getElementById('autoCompleteInput');
     const enterSuggestionInput = document.getElementById('enterSuggestion');
     autoCompleteInput.addEventListener("input", function(e) {
