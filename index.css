@@ -1,0 +1,56 @@
+input{
+    padding: 10px;
+    border: 0;
+    font-size: 15px;
+    display: inline-block;
+}
+input:focus{
+    outline-width:0;
+}
+
+#autoCompleteSuggestions {
+    padding: 10px;
+    list-style-type: none;
+    padding-left: 0px;
+}
+#selectedSuggestions{
+    text-align: center;
+}
+#selectedSuggestions li {
+    cursor: default;
+    display:inline-block;
+    border: 1px solid lightgray;
+    padding: 6px;
+    margin: 6px;
+}
+.populatedSuggestions{
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
+    cursor: default;
+}
+.autoComplete{
+    width: 80%;
+}
+.populatedSuggestions{
+    text-decoration: none;
+}
+.closeIcon{
+    padding: 1px;
+    font-size: 12px;
+    color: black;
+    background-color: lightgray;
+    margin-left: 10px;
+    cursor: default;
+    border-radius: 50%;
+    border: 1px solid gray;
+}
+#enterSuggestion{
+    border:1px solid black;
+    padding:5px;
+}
+#details{   
+    margin-top: 20px;
+}
+.populatedSuggestionsShortName{
+    color: gray;
+}
